@@ -1,0 +1,21 @@
+# Raw PhysioNet data — never commit identifiable data
+*.csv.gz
+mimic-iv/
+eicu/
+physionet.org/
+data/raw/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
