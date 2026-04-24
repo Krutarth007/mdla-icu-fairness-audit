@@ -1,0 +1,5 @@
+Analysis,Point Estimate,95% CI,CI Method,Interpretation
+Predict Race from missingness (macro-AUROC),0.5429,(0.5399–0.5460),Hanley-McNeil analytical,CI excludes 0.5 → confirmed racial encoding in missingness pattern
+Predict Insurance from missingness (macro-AUROC),0.5345,(0.5305–0.5385),Hanley-McNeil analytical,CI excludes 0.5 → confirmed SES encoding in missingness pattern
+Features with significant race-missingness association (Bonferroni),18,—,—,All Cramér's V < 0.10 — statistically significant but small effect
+Features with Cramers V > 0.10 (race),0,—,—,No feature reaches small-to-medium threshold — subtle but reproducible

@@ -1,0 +1,2 @@
+Group-Platt Race MaxCalGap,Global Platt Race MaxCalGap,Root Cause,Recommendation
+0.07325328843029481,0.053866842232186164,Small calibration subgroup n causes overfitting of group-specific calibrator,Use global calibration when any minority subgroup n_val < 200

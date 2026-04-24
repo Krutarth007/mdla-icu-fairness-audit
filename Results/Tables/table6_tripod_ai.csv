@@ -1,0 +1,23 @@
+Item,Section,Description,Status
+1a,Title,Identifies the study as a fairness audit of a prediction model,✓
+1b,Abstract,"Structured abstract with background, methods, fairness findings, conclusions",✓
+2,Background,Fairness audit framed in context of algorithmic disparities in ICU care,✓
+3a,Source of data,MIMIC-IV v2.2 (development) + eICU v2.0 (external validation),✓
+3b,Dates,MIMIC-IV: 2008–2022; eICU: 2014–2015,✓
+4,Participants,Eligibility criteria identical across datasets,✓
+5,Outcome,"In-hospital mortality, operationalized consistently",✓
+6,Predictors,"43 first-24h features (20 vitals, 22 labs, 2 clinical); gcs_total and lab_troponin excluded due to 100% missingness — retained as binary missingness indicators per item 8a",✓
+7a,Sample size,"No formal sample size calculation; >50K train, >100K validation",✓
+8a,Missing data,Binary missingness indicators; median imputation from training set,✓
+8b,Missingness analysis,Novel: demographic-structured missingness as bias pathway,✓
+10a,Model development,"LR, RF, XGBoost; 5-fold CV; composite calibration criterion",✓
+10b,Calibration,"ECE, slope, intercept; subgroup-specific; four recalibration strategies",✓
+10c,Performance,"AUROC, AUPRC, Brier, sensitivity, specificity, PPV, NPV, F1",✓
+12,External validation,eICU: no retraining; preprocessing from MIMIC-IV only,✓
+13a,Fairness audit,"Five formal fairness criteria: EO, EqOpp, DP, PP, CalFair",✓
+13b,Protected attributes,"Race/ethnicity, sex, insurance, age group, ICU type",✓
+13c,Subgroup recalibration,Four strategies compared; Pareto frontier analysis,✓
+14,Discrimination,SHAP (global + race-stratified + missingness SHAP),✓
+15,DCA,Group-stratified DCA across race and insurance subgroups,✓
+17,Reporting guideline,"TRIPOD+AI (Collins et al., BMJ 2024)",✓
+19,Code availability,Full pipeline available at GitHub,✓

@@ -1,0 +1,5 @@
+Analysis,Value,Interpretation
+Predict Race from missingness (5-fold CV AUROC),0.5429,Above 0.5 → missingness encodes racial information
+Predict Insurance from missingness (5-fold CV AUROC),0.5345,Above 0.5 → missingness encodes socioeconomic information
+Features with significant race-missingness association,18,p < 0.05 Bonferroni-corrected
+Features with Cramers V > 0.1 (race),0,Small-to-medium effect size threshold
