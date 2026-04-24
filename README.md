@@ -24,7 +24,8 @@ mdla-icu-fairness-audit/
 ├── LICENSE
 ├── .gitignore
 │
-├── fairness_audit_ICU_COMPLETE.ipynb
+├── notebook/
+    ├── fairness_audit_ICU_COMPLETE.ipynb
 │
 └── results/
     ├── figures/
