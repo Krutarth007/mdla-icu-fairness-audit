@@ -133,8 +133,7 @@ If you use this code or the MDLA framework, please cite:
 
 > Patel K, Beedala P. Unmeasured but Not Unbiased: Demographic Information 
 > Encoded in Clinical Missingness Patterns and Its Implications for Fairness 
-> in Critical Care Mortality Prediction. *Journal of the American Medical 
-> Informatics Association*. 2026. [In review]
+> in Critical Care Mortality Prediction. [In review]
 
 ---
 
