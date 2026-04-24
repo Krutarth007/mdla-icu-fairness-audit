@@ -30,25 +30,15 @@ mdla-icu-fairness-audit/
 └── results/
     ├── figures/
     │   ├── fig2_missingness_heatmap.png
-    │   ├── fig2_missingness_heatmap.pdf
     │   ├── fig3_demographic_leakage.png
-    │   ├── fig3_demographic_leakage.pdf
     │   ├── fig4_calibration_curves.png
-    │   ├── fig4_calibration_curves.pdf
     │   ├── fig5_fairness_dashboard.png
-    │   ├── fig5_fairness_dashboard.pdf
     │   ├── fig6_subgroup_calibration_recal.png
-    │   ├── fig6_subgroup_calibration_recal.pdf
     │   ├── fig7_pareto_frontier.png
-    │   ├── fig7_pareto_frontier.pdf
     │   ├── fig8a_shap_global.png
-    │   ├── fig8a_shap_global.pdf
     │   ├── fig9_race_stratified_shap.png
-    │   ├── fig9_race_stratified_shap.pdf
     │   ├── fig10_missingness_shap_race.png
-    │   ├── fig10_missingness_shap_race.pdf
-    │   ├── fig11_group_dca.png
-    │   └── fig11_group_dca.pdf
+    │   └── fig11_group_dca.png
     │
     ├── tables/
     │   ├── table1_cohort_mimic.csv
