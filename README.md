@@ -121,9 +121,7 @@ specified in Section 1 of the notebook and re-run all cells from the top.
 
 If you use this code or the MDLA framework, please cite:
 
-> Patel K, Beedala P. Unmeasured but Not Unbiased: Demographic Information 
-> Encoded in Clinical Missingness and Its Implications for Fairness 
-> in Critical Care Mortality Prediction. [In review]
+> Patel K, Beedala P. Unmeasured but Not Unbiased: The Missingness Demographic Leakage Audit (MDLA) for Calibration-Aware Fairness Evaluation in Critical Care Mortality Prediction. [In review]
 
 ---
 
