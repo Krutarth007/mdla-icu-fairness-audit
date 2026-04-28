@@ -1,4 +1,4 @@
-# Unmeasured but Not Unbiased: Demographic Information Encoded in Clinical Missingness and Its Fairness Implications for Critical Care Mortality Prediction
+# Unmeasured but Not Unbiased: The Missingness Demographic Leakage Audit (MDLA) for Calibration-Aware Fairness Evaluation in Critical Care Mortality Prediction
 
 **Krutarth Patel · Phanindra Beedala**  
 
